@@ -12,7 +12,7 @@ net user <username>
 net localgroup <group>
 ```
 Even with administrator/administrators
-More AD in [[Enumeration]]
+More AD in [AD Enumeration](../../../AD/Enumeration/Enumeration.md)
 
 
 

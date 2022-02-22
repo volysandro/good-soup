@@ -16,4 +16,4 @@
 - Create a file and vice versa lol
 
 
-Continue in [[llmnr_nbt-ns_poisoning]]
+Continue in [LLMNR Poisoning](./llmnr_nbt-ns_poisoning.md)

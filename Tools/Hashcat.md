@@ -4,4 +4,4 @@
 - --force for VM use
 
 ## Kerberos ticket
-`hashcat -m 13100`
+`-m 13100`

