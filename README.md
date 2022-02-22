@@ -6,7 +6,8 @@ Welcome to the *good soup* a.k.a my personal notes repository, where I'll be kee
 
 ## Small index
 This index will be up to date for approximately 2 weeks after it was committed.
-- [Active Directory](AD/AD.md)
+- [Active Directory](https://github.com/volysandro/good-soup/tree/main/AD)
+- [Tools](https://github.com/volysandro/good-soup/tree/main/Tools)
 - [DNS](DNS/tools.md)
 - [msfvenom](Payloads/msfvenom.md)
 - [staging payloads](Payloads/staging.md)
