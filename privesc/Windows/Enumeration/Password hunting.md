@@ -6,4 +6,4 @@ findstr /si <string> <file> <file> #asteriks possible
 ```
 
 ## Automated / Tools
-More in [Automated Privesc Tools](./automation.md)
+More in [Automated Privesc Tools](Automation.md)
