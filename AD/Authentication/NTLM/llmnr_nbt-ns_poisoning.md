@@ -1,4 +1,6 @@
 # LLMNR Poisoning
+## Disclaimer
+The scenarios listed in this directory are directly taken from Heath Adams (The Cyber Mentor) in his "Zero to Hero" course.
 ## Notes
 - LLMNR Poisoning = NBT-NS Poisoning
 - Link Local Multicast Name Resolution, Netios Name services
@@ -7,8 +9,10 @@
 - Also using this when connecting to share
 
 Attack 1:
-- Find has
+- Find hash
 - Crack
+
+
 Attack 2:
 - Relay NTLM hash
 - Never crack it
