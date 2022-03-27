@@ -13,7 +13,7 @@ What is our vector?
 The next step was to try a lot of different versions of either payloads or just characters to enumerate what we are allowed to do.   
 Whitespaces lead to an error saying the command can only take one argument -> So we have to avoid spaces.  
 Escaping a statement using a semi-colon returns some greetings from the event crew, so yet another character to avoid. But all of the other special characters seem to work fine and produce the same generic error.  
-Another interesting thing: submitting *challs id* with the actual "id" instead of a number returns the set of challenges again, but without the *id* column. I initially thought this was weird, but makes a lot of sense. This would initially mean `id=id` and return everything minus the stuff that the user doesn't need anymore anyway.
+Another interesting thing: submitting *challs id* with the actual "id" instead of a number returns the set of challenges again, but without the *id* column. I initially thought this was weird, but makes a lot of sense. This would initially mean `id=id` and return everything minus the stuff that the user doesn't need anymore anyway. Thanks Calle for pointing this out to me!
 
 ## Tightening up
 This again took a lot of playing aroung with differend kinds of input. In the end, *UNION SELECT* was the one that did it. Since we had to avoid whitespaces, we used the MySQL alias for it: '/**/'  
