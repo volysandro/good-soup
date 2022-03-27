@@ -22,7 +22,7 @@ To see if we could get a list of tables we tried to merge our challenges table w
 ![](messagetoolong.png)
 ## Message too long
 I shortened the message further, trying to query only *table_name*, and maybe only unionize using a short string and integers instead of NULL to further shorten the query but even that didn't work. I love the fact that this challenge is entirely in a chat, which means I don't even have to explain it. This screenshot just speaks words.  
-![](pics/telegram/limit.png)
+![](pics/telegram/limit.png)  
 The problem was that the queried data is too large for Telegram message bodies. The query was good each time it returned the error. :X 
 If I went a different path maybe I wouldn't have encountered this.
 
