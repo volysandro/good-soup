@@ -17,7 +17,7 @@ Another interesting thing: submitting *challs id* with the actual "id" instead o
 
 ## Tightening up
 This again took a lot of playing aroung with differend kinds of input. In the end, *UNION SELECT* was the one that did it. Since we had to avoid whitespaces, we used the MySQL alias for it: '/**/'  
-![](pics/telegram/union-null.png)
+![](pics/telegram/union-null.png)  
 To see if we could get a list of tables we tried to merge our challenges table with the information_schema.tables output, but we got a very different error this time, stating that the message is too long.   
 ![](messagetoolong.png)
 ## Message too long
