@@ -28,7 +28,7 @@ If I went a different path maybe I wouldn't have encountered this.
 
 ## The solve
 Finally, the flag ended up being in the *Category* of the *admin* user in *insomnihack.users*.  
-I didn't solve this last part myself, congrats Manuel :D  
+I didn't solve this last part myself, congrats mcia :D  
 ![](pics/telegram/solve.png)
 
 I really liked this challenge, since it was a refreshing way to interact with something. I caught myself looking at it when I wasn't near my laptop all the time, and having the entire history of solving it as a chat is a nice souvenir :D  
